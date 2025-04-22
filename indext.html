@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Realistic Buttons</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="button-container">
+    <div class="btn" id="repeatBtn">
+      <span class="icon">&#10226;</span>
+      <span class="led-dots"></span>
+    </div>
+    <div class="btn" id="playBtn">
+      <span class="label">PLAY</span>
+      <span class="led-bar"></span>
+    </div>
+    <div class="btn" id="recBtn">
+      <span class="label">REC</span>
+      <span class="dot"></span>
+    </div>
+  </div>
+
+  <audio id="clickSound" src="click-sound.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</body>
+</html>
